@@ -1,0 +1,23 @@
+body {
+  background: linear-gradient(lightblue, thistle, honeydew, thistle, lightblue);
+  font-family: 'Indie Flower', cursive;
+  font-size:28px;
+}
+h1 {
+	font-size:80px;
+}
+h2 {
+	font-size:42px;
+}
+h3 {
+	font-size:36px;
+	font-family: Arial;
+}
+.blinking{
+    animation:blinkingText 0.8s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: red;    }
+    50%{    color: transparent; }
+    100%{   color: red;    }
+}
